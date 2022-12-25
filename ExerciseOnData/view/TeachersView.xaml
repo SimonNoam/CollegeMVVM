@@ -14,8 +14,8 @@
         </Grid.RowDefinitions>
         <TextBlock Background="DarkGray" Grid.Row="0" VerticalAlignment="Bottom" Height="110" Text="Teachers List" FontSize="18" FontWeight="Bold" TextAlignment="Left" FontFamily="Javanese Text"></TextBlock>
         <ComboBox Grid.Row="0"  IsEditable="True" Text="Choose Course" ItemsSource="{Binding Courses}" SelectedItem="{Binding SelectedCourse}" Height="30" VerticalAlignment="Bottom" FontWeight="Bold" Margin="0,0,0,44"></ComboBox>
-        <Button  Grid.Row="0"  Content="AddCourse" Command="{Binding AddCourseCommand}"  Height="20" VerticalAlignment="Bottom" Margin="0,0,0,22" FontWeight="Bold"></Button>
-        <Button  Grid.Row="0" Content="ShowStudents" Command="{Binding AddStudentsCommand}" Height="20" VerticalAlignment="Bottom" Margin="0,0,0,0" FontWeight="Bold"></Button>
+        <Button  Grid.Row="0"  Content="Add Course" Command="{Binding AddCourseCommand}"  Height="20" VerticalAlignment="Bottom" Margin="0,0,0,22" FontWeight="Bold"></Button>
+        <Button  Grid.Row="0" Content="Show Students" Command="{Binding AddStudentsCommand}" Height="20" VerticalAlignment="Bottom" Margin="0,0,0,0" FontWeight="Bold"></Button>
         <ListView Background="#FFCDFC85" x:Name="LvTeachers" Grid.Row="1" ItemsSource="{Binding Teachers}" DisplayMemberPath="Name"  SelectedItem="{Binding SelectedTeacher}" FontWeight="Bold"></ListView>
         <TextBlock Grid.Row="1" VerticalAlignment="Bottom" Height="20" Text="Teacher Courses" TextAlignment="Center" FontSize="14" FontWeight="Bold" Margin="0,0,0,70" ></TextBlock>
         <TextBlock Background="White" Text="{Binding ElementName=LvTeachers,Path=SelectedItem.Course}" Grid.Row="1" Height="50" VerticalAlignment="Bottom" FontWeight="Bold" TextAlignment="Center"/>
