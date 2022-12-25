@@ -1,5 +1,5 @@
 <h1>College System Project (MVVM WPF C#)</h1>
-<p>Welcome to the Teachers and Students System project, a MVVM WPF C# application built with Entity Framework.
+<p>Welcome to the College System project, a MVVM WPF C# application built with Entity Framework.
 This project is designed to allow teachers to manage their students and their grades, also to manage teachers courses.</p>
 <p>The project is built using the MVVM (Model-View-ViewModel) architectural pattern,
 which allows for separation of concerns and a more maintainable codebase. The project consists of the following main components:</p>
