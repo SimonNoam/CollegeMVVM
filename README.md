@@ -15,7 +15,7 @@ which allows for separation of concerns and a more maintainable codebase. The pr
 <ul>
   <li>Add Course to teacher , view all teacher courses</li>
   <li>View a list of all teachers and students</li>
-  <li> Add, change student final grade </li>
+  <li>change student final grade </li>
 </ul>
 <img src="https://user-images.githubusercontent.com/113131666/209237637-33511112-f44b-4bc4-a078-81df1eadecf4.png" alt="project image" />
 <h2>Installation</h2>
