@@ -30,6 +30,6 @@ which allows for separation of concerns and a more maintainable codebase. The pr
 <p>This project requires the following libraries to be installed:</p>
 <ul>
   <li>.NET Framework 4.7.2 or higher</li>
-  <li>WPF Toolkit 3.5.0 or higher</li>
+  <li>WPF Toolkit 3.5.0 or higher</li> 
   <li>Entity FrameWork</li>
 </ul>
